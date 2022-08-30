@@ -1,0 +1,9 @@
+{
+	"name": "adfmarlabsdemo",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "29d16cd1-1024-46a8-ad66-a1cf3f4f4ef2",
+		"tenantId": "fca0e8a8-7a87-439e-ba0f-0ad3057fcb09"
+	}
+}
