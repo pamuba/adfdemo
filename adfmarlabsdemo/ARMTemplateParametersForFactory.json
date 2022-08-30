@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfmarlabsdemo"
+		},
+		"SourceLinkedService_connectionString": {
+			"value": ""
+		},
+		"tumblingtrigger_properties_pipeline_parameters_startDate": {
+			"value": "@trigger().outputs.windowStartTime"
+		},
+		"tumblingtrigger_properties_pipeline_parameters_endDate": {
+			"value": "@trigger().outputs.windowEndTime"
+		}
+	}
+}
